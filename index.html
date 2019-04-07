@@ -1,0 +1,41 @@
+﻿
+<title>Word Counter</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="./style.css">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Word Counter</a>
+    </div>
+	<ul class="nav navbar-nav">
+      <li><a class="active" href="#">by christo</a></li>
+	</ul>
+	</div>
+</nav>
+
+<div class="container">
+<form class="form-inline">
+<div class="form-group">
+    <label for="texto">Texto: </label>
+	
+	<textarea placeholder="Texto" class="form-control" id="texto"></textarea>
+	<!-- class="form-control" -->
+
+</div>
+	<button type="submit" class="btn btn-success" onClick="convert()">Confirmar</button>
+</form>
+</div>
+
+<div id="tabela"></div>
+
+<div class="footer">
+  <span class="texto_footer">© 2019 Copyright: Gabriel Christo</span>
+</div>
+
+<script src="./script.js"></script>
+
+
